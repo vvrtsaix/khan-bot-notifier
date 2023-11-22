@@ -1,0 +1,22 @@
+{
+  "name": "khan-bot-notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vvrtsaix/khan-bot-notifier.git",
+  "author": "Uurtsaikh Nyambat <vvrtsaix.n@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "puppeteer": "^21.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
